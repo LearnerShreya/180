@@ -1,6 +1,7 @@
 *.exe
 0_format.cpp
 practice1.cpp
+practice.cpp
 .vscode/
 tempCodeRunnerFile.cpp
 *.pdf
