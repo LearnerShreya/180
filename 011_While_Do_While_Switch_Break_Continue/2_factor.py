@@ -34,4 +34,18 @@ print("Factors:", factors_list)
 
 
 
+<<<<<<< HEAD
 # Print all even numbers from 0 to given 'n'  number , Print all Odd  numbers from 0 to given 'n'  number
+=======
+# Print all even numbers from 0 to given 'n'  number , Print all Odd  numbers from 0 to given 'n'  number
+
+i = 1
+n = int(input("Enter a number to find even and odd numbers: "))
+
+while(i <= n):
+    if i % 2 == 0:
+        print(f"{i} is an even number")
+    else:
+        print(f"{i} is an odd number")
+    i += 1
+>>>>>>> 50facf7 (add : 004_if_else_,_loop/1_sum.cpp)
