@@ -32,11 +32,6 @@ while i <= n:
 print("Factors:", factors_list)
 
 
-
-
-<<<<<<< HEAD
-# Print all even numbers from 0 to given 'n'  number , Print all Odd  numbers from 0 to given 'n'  number
-=======
 # Print all even numbers from 0 to given 'n'  number , Print all Odd  numbers from 0 to given 'n'  number
 
 i = 1
@@ -48,4 +43,3 @@ while(i <= n):
     else:
         print(f"{i} is an odd number")
     i += 1
->>>>>>> 50facf7 (add : 004_if_else_,_loop/1_sum.cpp)
