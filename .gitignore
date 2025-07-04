@@ -1,7 +1,10 @@
 *.exe
 0_format.cpp
+0_format.py
 practice1.cpp
+practice1.py
 practice.cpp
+practice.py
 .vscode/
 tempCodeRunnerFile.cpp
 tempCodeRunnerFile.py
