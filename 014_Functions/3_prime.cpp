@@ -2,17 +2,17 @@
 using namespace std;
 
 
-bool Prime(int n) {
+string Prime(int n) {
     if(n<2)
-    return 0;
+    return "No";
 
     int i;
     for(i=2; i<n; i++)
     {
         if(n%i==0)
-        return 0;
+        return "No";
     }
-    return 1;
+    return "Yes";
 }
 
 int Fact(int n) 
@@ -27,7 +27,9 @@ int Fact(int n)
 int main() {
     int a, b;
     cout<<"Enter the number: ";
-    cin>>a>>b;
+    cin>>a;
+    cout<<"Enter the number: ";
+    cin>>b;
 
     cout<<"Is A a prime number? "<<Prime(a)<<endl;
     cout<<"Factorial of A: "<<Fact(a)<<endl;
